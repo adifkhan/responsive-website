@@ -1,6 +1,7 @@
 body{
     font-family: 'Dongle', sans-serif;
 }
+/* header */
 nav{
     display: flex;
     justify-content: space-between;
@@ -31,22 +32,24 @@ nav li a{
 
 .first-section{
     display: flex;
-    margin: 50px 90px;
+    margin: 0 90px;
 }
+/* first section */
 .influencer{
     width: 50%;
 }
-.influencer h1{
+.influencer>h1{
     font-size: 70px;
     color: rgba(36, 33, 33, 0.856);
     line-height: 80%;
     font-weight: 500px;
+    margin: 0;
 }
-.influencer p{
+.influencer>p{
     font-size: 30px;
     line-height: 80%;
 }
-.influencer a{
+.influencer>a{
     text-decoration: none;
     font-size: 30px;
     color: whitesmoke;
@@ -58,9 +61,73 @@ nav li a{
     font-size: 20px;
     margin-left: 5px;
 }
-.influencer img{
+.influencer>img{
     width: 70%;
     margin-left: 20%;
     border: 1px solid rgba(54, 52, 52, 0.144);
     border-radius: 200px;
+}
+.start{
+    margin-top: 40px;
+}
+/* list of brands */
+.brands{
+    display: flex;
+    justify-content: space-around;
+    margin: 70px 200px;
+    padding: 20px 0;
+    border-top: 1px solid rgba(54, 52, 52, 0.144);
+    border-bottom: 1px solid rgba(54, 52, 52, 0.144);
+}
+/* Collection part */
+.product-container>h1{
+    font-size: 40px;
+    font-weight: 600;
+    color: rgba(36, 33, 33, 0.856);
+    text-align: center;
+}
+.frame{
+    width: 280px;
+    height: 430px;
+    border-radius: 5px;
+    box-shadow: 10px 15px 20px 20px rgba(128, 128, 128, 0.486);
+    margin-bottom: 30px;
+}
+.photo>img{
+    width: 95%;
+    border-radius: 5px;
+    margin: 7px 7px 0 7px;
+}
+.details{
+    padding: 0 20px;
+    line-height:0;
+}
+.details>h1{
+    font-size: 40px;
+    font-weight: 400;
+    margin: 20px 0;
+}
+.details>h2{
+    font-size: 35px;
+    font-weight: 400;
+    margin: 35px 0 15px 0;
+}
+.fa-star, .fa-star-half-alt{
+    font-size: 12px;
+    color: orange;
+}
+.rating{
+    font-size: 20px;
+    line-height: 0;
+}
+.details>p{
+    font-size: 25px;
+    line-height: 1;
+    margin: 5px 0;
+}
+.collection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 20px 180px;
 }
