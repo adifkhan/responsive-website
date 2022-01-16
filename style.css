@@ -66,6 +66,10 @@ nav li a{
     margin-left: 20%;
     border: 1px solid rgba(54, 52, 52, 0.144);
     border-radius: 200px;
+    transition: transform 2s linear;
+}
+.influencer img:hover{
+    transform: rotate(10deg) scale(1.1);
 }
 .start{
     margin-top: 40px;
@@ -90,7 +94,7 @@ nav li a{
     width: 280px;
     height: 430px;
     border-radius: 5px;
-    box-shadow: 10px 15px 20px 20px rgba(128, 128, 128, 0.486);
+    box-shadow: 10px 15px 25px 20px rgba(177, 172, 172, 0.239);
     margin-bottom: 30px;
 }
 .photo>img{
@@ -124,10 +128,77 @@ nav li a{
     font-size: 25px;
     line-height: 1;
     margin: 5px 0;
+    color: rgba(36, 33, 33, 0.856);
 }
 .collection{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin: 20px 180px;
+}
+.see-more{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 210px;
+}
+.see-more a{
+    font-size: 35px;
+    font-weight: 600;
+    text-decoration: none;
+    color: rgb(199, 21, 66);
+}
+.offers{
+    display: flex;
+    margin: 20px 200px;
+}
+.order{
+    width: 50%;
+}
+.burger img{
+    width: 70%;
+    margin-left: 30px;
+    border-radius: 10px;
+}
+.order h2{
+    font-size: 50px;
+    margin: 0;
+}
+.order p{
+    font-size: 25px;
+    margin: 0;
+    text-align: justify;
+    line-height: 90%;
+    color: rgba(36, 33, 33, 0.856);
+}
+.order a{
+    font-size: 30px;
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 0 20px;
+    background-color: rgb(199, 21, 66);
+    border-radius: 20px;
+}
+.footer{
+    height: 200px;
+    background-color: rgb(21, 21, 56);
+    color: whitesmoke;
+    text-align: center;
+    padding: 30px 0 0 10px;
+}
+.footer-details>h1{
+    font-size: 40px;
+    font-weight: 400;
+    margin: 0;
+}
+.footer-details p{
+    margin: 0;
+    font-size: 20px;
+}
+.socials a{
+    color: whitesmoke;
+    margin: 7px;
+    font-size: 30px;
+}
+.socials a:hover{
+    color: rgb(199, 21, 66);
 }
