@@ -202,3 +202,17 @@ nav li a{
 .socials a:hover{
     color: rgb(199, 21, 66);
 }
+@media (max-width: 688px) {
+    .menu{
+        visibility: hidden;
+    }
+    #head-line{
+        align-items: center;
+    }
+    .first-section{
+        flex-direction: column;
+    }
+    .collection{
+        flex-direction: column;
+    }
+}
